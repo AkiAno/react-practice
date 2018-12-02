@@ -1,0 +1,11 @@
+.color-box {
+    width: 5rem;
+    height: 5rem;
+    border: 2px solid gray;
+    margin: 1rem auto;
+  }
+  
+  .color-controls {
+    display: flex;
+    flex-flow: column nowrap;
+  }

@@ -1,0 +1,36 @@
+.slider {
+    width: 18rem;
+    display: flex;
+    align-items: center;
+    margin: 0.25rem 0;
+  }
+  
+  .scale {
+    position: relative;
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    height: 1.4rem;
+  }
+  
+  .bar {
+    flex: 1;
+    height: 0.5rem;
+    background-color: blue;
+    border-radius: 0.25rem;
+  }
+  
+  .knob {
+    top: 0;
+    left: 100%;
+    position: absolute;
+    width: 1.4rem;
+    height: 1.4rem;
+    border: 0.2rem solid white;
+    border-radius: 0.7rem;
+    background-color: blue;
+  }
+  
+  .value {
+    margin-left: 0.5rem;
+  }

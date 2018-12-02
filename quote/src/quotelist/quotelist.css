@@ -1,0 +1,16 @@
+.checklist {
+  display: flex;
+}
+.addText {
+  margin: 5px;
+  padding: 5px;
+  width: 150px;
+  font-size: 20px;
+}
+.addBtn {
+  padding: 10px;
+  background-color: rgb(23, 201, 67);
+  border-radius: 10px;
+  color: white;
+  margin: 5px;
+}
